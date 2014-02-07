@@ -1,12 +1,12 @@
 QEMU/KVM EXTERNAL SNAPSHOTS (offline)
 =====================================
-This script will help you make backups of your virtual machines in offline mode using the 'virsh' tool.
+This script will help you make backups of your virtual machines in offline mode using the `virsh` tool.
 
 **_NOTES:_**
 
-* Make sure the disks of virtual machines they're added at least one **pool**. Because the script searches for disks on **pools**.
-* The script need privileges to run the tool **virsh**
-* To automate you may use **crontab** to run the script
+* Make sure the disks of virtual machines they're added at least one __pool__. Because the script searches for disks on __pools__.
+* The script needs privilege to run `virsh`
+* To automate the script you can use __crontab__ tool
 
 Example Output 1:
 
@@ -67,4 +67,4 @@ Server WindowsXP is not started.. Trying to start!
 Exit! 14:42:34 02/09/13
 ```
 
-I be happy to receive your **feedback** to improve the script. Greetings!
+I'll be happy to receive your __feedback__ to improve the script. Greetings!
